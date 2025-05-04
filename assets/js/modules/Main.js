@@ -19,12 +19,14 @@ export function Main() {
 		const  p  = document.createElement("p");
 		const  a  = document.createElement("a");
 
-		img.src = `/challenges/${padding(index + 1)}${index}`;
+		img.src = `/challenges/screenshots/${padding(index + 1)}${index + 1}.jpg`;
+		img.alt = `${challenges[index].title}'s screenshot`;
 		h2.innerText = challenges[index].title;
 		a.href = `/challenges/${padding(index + 1)}${index + 1}`;
 		p.innerText  = challenges[index].description;
 		a.insertAdjacentElement("afterbegin", h2);
 		section.appendChild(a);
+		section.appendChild(img);
 		section.appendChild(p);
 	}
 	main.appendChild(section);
