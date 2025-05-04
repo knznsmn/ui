@@ -1,6 +1,6 @@
 export const challenges = [
 	{
-		title: "#001",
+		title: "Prompt Signup",
 		description: "Very nice. Sure."
 	}
 
