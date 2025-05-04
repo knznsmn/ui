@@ -1,5 +1,9 @@
 import {challenges} from "./challenges.js";
 
+function padding(index) {
+	return index < 10 ? "00" : "0";
+}
+
 export function Main() {
 	const main = document.getElementsByTagName("main")[0];
 	const section = document.createElement("section");
@@ -10,12 +14,14 @@ export function Main() {
 	
 	
 	function display_challenges(index) {
-		const h2 = document.createElement("h2");
-		const  p = document.createElement("p");
-		const  a = document.createElement("a");
+		const img = document.createElement("img");
+		const h2  = document.createElement("h2");
+		const  p  = document.createElement("p");
+		const  a  = document.createElement("a");
 
+		img.src = `/challenges/${padding(index + 1)}${index}`;
 		h2.innerText = challenges[index].title;
-		a.href = `/challenges/${index + 1}`;
+		a.href = `/challenges/${padding(index + 1)}${index + 1}`;
 		p.innerText  = challenges[index].description;
 		a.insertAdjacentElement("afterbegin", h2);
 		section.appendChild(a);
