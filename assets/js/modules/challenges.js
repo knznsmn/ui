@@ -6,6 +6,10 @@ export const challenges = [
 	{
 		title: "Prompt: Credit Card Checkout",
 		description: "Design a credit card checkout form or page. Don't forget the important elements such as the numbers, dates, security numbers, etc."
+	},
+	{
+		title: "Prompt: Landing Page",
+		description: "What's the main focus? Is it for a book, an album, a mobile app, a SaaS product? Consider important landing page elements (Headlines, call-to-action buttons, typography, clarity, etc.)"
 	}
 
 ]
