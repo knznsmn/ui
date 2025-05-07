@@ -6,7 +6,7 @@ function padding(index) {
 
 export function Main() {
 	const main = document.getElementsByTagName("main")[0];
-	const section = document.createElement("section");
+	const article = document.createElement("article");
 		
 	challenges.forEach((challenge, index) => {
 		display_challenges(index);
@@ -14,6 +14,7 @@ export function Main() {
 	
 	
 	function display_challenges(index) {
+		const section = document.createElement("section");
 		const img = document.createElement("img");
 		const h2  = document.createElement("h2");
 		const  p  = document.createElement("p");
@@ -28,7 +29,8 @@ export function Main() {
 		section.appendChild(a);
 		section.appendChild(img);
 		section.appendChild(p);
+		article.appendChild(section);
 	}
-	main.appendChild(section);
+	main.appendChild(article);
 	
 }

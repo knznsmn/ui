@@ -8,15 +8,21 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-
 main {
 	flex: 1;
 }
+
+article {
+	gap: 1rem;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
 section {
-	margin: 3rem auto;
+	width: 100%;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
 }
 section img {
 	width: 50%;
