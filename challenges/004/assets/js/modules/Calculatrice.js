@@ -6,25 +6,10 @@ export function Calculatrice() {
   const leds = document.createElement("section");
   const keys = document.createElement("section");
   const no_of_keys = 12;
-  const key  = {
-    "0",
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "0",
-    "+",
-    "-",
-    "*",
-    "/",
-    "%",
-    "="
-    };
+  for (let i = 0; i < no_of_keys; i++) {
+    keys.appendChild(document.createElement("button"));
+    console.log(i);
+  }
   
   article.appendChild(oled);
   article.appendChild(leds);
