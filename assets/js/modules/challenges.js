@@ -18,5 +18,9 @@ export const challenges = [
 	{
 		title: "App Icon",
 		description: "Design an app icon. What best represents the brand or product? Or is it incredibly unique? Does it look great at a distance and does it stand out when put on your home screen alongside other apps?",
+	},
+	{
+		title: "User Profile",
+		description: "Design a user profile and be mindful of the most important data, names, imagery, placement, etc. Is it for a serious profile? A social profile? (It's up to you!)"
 	}
 ]
