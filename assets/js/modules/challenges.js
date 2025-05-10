@@ -17,10 +17,18 @@ export const challenges = [
 	},
 	{
 		title: "App Icon",
-		description: "Design an app icon. What best represents the brand or product? Or is it incredibly unique? Does it look great at a distance and does it stand out when put on your home screen alongside other apps?",
+		description: "Design an app icon. What best represents the brand or product? Or is it incredibly unique? Does it look great at a distance and does it stand out when put on your home screen alongside other apps?"
 	},
 	{
 		title: "User Profile",
 		description: "Design a user profile and be mindful of the most important data, names, imagery, placement, etc. Is it for a serious profile? A social profile? (It's up to you!)"
+	},
+	{
+		title: "Settings",
+		description: "Design settings for something. Is it for security or privacy settings? Game settings? Light mode vs. dark mode? System settings (sound, notifications, screen time, Wi-Fi, etc.?"
+	},
+	{
+		title: "404 Page Design",
+		description: "Design a 404 page - that's not boring! \nDoes it suit the brand's style? Is it user-friendly? It might sound mundane, but not everything can be flashy or glamorous. Every day millions of people will be landing on 404 pages. You have an opportunity to help them in a way that's useful and aesthetically pleasing. (It's up to you!)"
 	}
 ]
