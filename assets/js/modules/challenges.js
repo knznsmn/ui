@@ -30,5 +30,25 @@ export const challenges = [
 	{
 		title: "404 Page Design",
 		description: "Design a 404 page - that's not boring! \nDoes it suit the brand's style? Is it user-friendly? It might sound mundane, but not everything can be flashy or glamorous. Every day millions of people will be landing on 404 pages. You have an opportunity to help them in a way that's useful and aesthetically pleasing. (It's up to you!)"
+	},
+	{
+		title: "Music Player",
+		description: "Design a music player. It could be browser based or an app (i.e. Pandora, Spotify, SoundCloud, etc.) or in a standalone product like in a car dashboard, jukebox, etc. \nConsider the controls, placements, imagery such as the artist or album cover, etc. Also, consider the device type that's playing the music. A dashboard in a tour bus, a smartwatch, or via a web browser. Each device type will have different requirements, features, and restrictions to consider."
+	},
+	{
+		title: "Social Share",
+		description: "Design a social share button/icon and be mindful of the size, imagery, placement, and purpose for sharing. It could be to share an article snippet, or a simple link with a photo."
+	},
+	{
+		title: "Flash Message",
+		description: "Design a Flash Message with both the error message and success message. Is it for a sign up form? A download/upload message? Is it to promote a membership plan?"
+	},
+	{
+		title: "E-Commerce Shop",
+		description: "Design an e-commerce shop. Is it simple for a local business or a large online retailer? Is it for clothing, shoes, handmade soap, or something else? Consider the brand, the products offered, product views, product options, desired actions (conversions, product views, pricing options, etc.) and of course, the users!"
+	},
+	{
+		title: "Direct Message",
+		description: "Design a Direct Messaging app, profile, or chat box. Consider the parties involved in the messages, images, placement, and context of the messages. Are the messages for social purposes? Customer support?"
 	}
 ]
